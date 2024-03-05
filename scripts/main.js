@@ -18,6 +18,7 @@ function getNameFromAuth() {
 
         } else {
             // No user is signed in.
+<<<<<<< HEAD
             console.log("No user is logged in");
         }
     });
@@ -122,3 +123,10 @@ function displayCardsDynamically(collection) {
 }
 
 displayCardsDynamically("hikes");  //input param is the name of the collection
+=======
+            console.log ("No user is logged in");
+        }
+    });
+}
+getNameFromAuth(); //run the function
+>>>>>>> a422e3f3c30854d603075be302bcd0852f35d52c
